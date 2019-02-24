@@ -1,0 +1,66 @@
+body, html {
+  background-image: url("https://images.pexels.com/photos/1011337/pexels-photo-1011337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.quiz-container {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+h2, div {
+  text-align: center;
+}
+
+h2 {
+  color: #421C52;
+}
+
+h1 {
+  color: #FD6A02;
+  font-family: 'Courgette', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+.instruction {
+  color: #FF0090;
+  font-family: 'Courgette', cursive;
+}
+
+.btnTrue, .btnFalse {
+  background-color: rgb(139,0,139);
+  border-radius: 50%;
+  border: none;
+  color: gold;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px, 2px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  width: 250px;
+}
+
+.btnTrue:hover, .btnFalse:hover {
+  background-color: #421C52;
+  color: white;
+}
+
+.btnPrevious:hover, .btnNext:hover {
+  background-color: yellow;
+}
+
+.btnNext, .btnPrevious {
+  transition: all 0.5s;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #FF8C00;
+  position: center;
+}
